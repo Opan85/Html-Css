@@ -41,7 +41,8 @@
 }
 
 .content {
-    min-width: 320px;
+    max-width: 420px;
+    margin: 0 auto;
 }
 
 .content-item {
