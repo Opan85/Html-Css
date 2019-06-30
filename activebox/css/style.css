@@ -479,6 +479,9 @@ Section Feature*/
 ---------------------------*/
 
 @media screen and (max-width: 1024px) {
+    .header {
+        height: 100%;
+    }
     .container {
         padding: 0 10px;
         margin: 0 auto;
@@ -495,6 +498,10 @@ Section Feature*/
     .header__subtitle {
         font-size: 18px;
         margin-bottom: 70px;
+    }
+
+    .header__text-box {
+        padding-bottom: 50px;
     }
 
     .features__inner {
@@ -524,18 +531,13 @@ Section Feature*/
     }
 }
 
-/* MAX-WIDTH 768px-------------------------------------
+/* MAX-WIDTH 812px (iphoneX/rotate)-------------------------------------
 
 ---------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     .nav {
         display: none;
-    }
-
-    .header__inner {
-        margin-bottom: 50px;
-        padding: 20px 0;
     }
 
     .header__logo {
@@ -549,6 +551,18 @@ Section Feature*/
         grid-column-gap: 20px;
         grid-row-gap: 40px;
         margin-bottom: 70px;
+    }
+
+}
+
+/* MAX-WIDTH 768px-------------------------------------
+
+---------------------------*/
+
+@media screen and (max-width: 768px) {
+    .header__inner {
+        margin-bottom: 50px;
+        padding: 20px 0;
     }
 
     .team__card {
@@ -669,6 +683,10 @@ Section Feature*/
     .team__card {
         max-width: 270px;
         text-align: center;
+    }
+
+    .team__card:hover {
+        box-shadow: none;
     }
 
     .testotimonials__inner {
