@@ -567,6 +567,8 @@ body {
     }
 }
 
+/* Iphone X rotate__________________________ */
+
 @media (max-width:812px) {
     .menu__item {
         margin-left: 30px;
@@ -657,7 +659,7 @@ body {
         flex: 50%;
     }
 
-    @media (max-width:425px) {
+    @media (max-width:425px){
        .container {
            padding: 0;
        }
@@ -682,8 +684,7 @@ body {
         }
 
     }
-
-    
+  
 }
 
 
