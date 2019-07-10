@@ -1,0 +1,17 @@
+@font-face {
+     font-family: 'ProximaNova';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/ProximaNova-Regular.woff'); 
+     src: local('ProximaNova'), local('ProximaNova-Regular'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'), 
+   }
+   
+   @font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ProximaNova-BoldIt.woff'); 
+    src: local('ProximaNova'), local('ProximaNova-BoldIt'),
+       url('../fonts/ProximaNova-BoldIt.woff') format('woff'), 
+  }
