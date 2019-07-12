@@ -10,8 +10,8 @@
    @font-face {
     font-family: 'ProximaNova';
     font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/ProximaNova-BoldIt.woff'); 
-    src: local('ProximaNova'), local('ProximaNova-BoldIt'),
-       url('../fonts/ProximaNova-BoldIt.woff') format('woff'), 
+    font-weight: 700;
+    src: url('../fonts/ProximaNova-Bold.woff'); 
+    src: local('ProximaNova'), local('ProximaNova-Bold'),
+       url('../fonts/ProximaNova-Bold.woff') format('woff'), 
   }
