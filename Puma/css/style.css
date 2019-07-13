@@ -228,3 +228,151 @@ body {
     background-color: #ff6600;
     border: none;
 }
+
+/* banners
+--------
+-
+--
+-
+-------*/
+.banner__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: -61%;
+    transform: translateX(-50%);
+    
+}
+
+.banner__box {
+    background: url(../img/banners/1-2.png);
+    background-color: #ff6600;
+    width: 590px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+}
+
+.snickers {
+    background: url(../img/banners/2-1.png);
+    background-color: #d4d4d4;
+}
+
+.banner__inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 590px;
+    height: 400px; 
+}
+
+.banner__border {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 503px;
+    height: 266px;
+    border: 5px solid #fff;
+    background-image: url(../img/banners/1.png);
+    background-position: -50px -52px;
+}
+
+.snickers__border {
+    background-image: url(../img/banners/2.png);
+}
+
+.banner__title {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 240px;
+}
+
+.banner__box--title {
+    display: inline;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #ff6600;
+    line-height: 1;
+}
+
+.title__snickers {
+    background-color: #d4d4d4;
+}
+
+.banner__box--link {
+    position: absolute;
+    left: 7%;
+    bottom: 8%;
+}
+
+.banner__btn {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.banner__btn:last-child {
+    margin-right: 0;
+}
+
+.fa-chevron-right {
+    padding-left: 20px;
+}
+
+/* section__blog-----------------
+-----------
+------------------ */
+.blog {
+    background-color: #f4f4f4;
+}
+
+.blog__textbox {
+    text-align: center;
+    letter-spacing: -2px;
+    padding-top: 468px;
+    padding-bottom: 100px;
+}
+
+.blog__title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.blog__subtitle {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.blog__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 590px;
+    padding: 0 11px;
+}
+
+.blog__item {
+    overflow: hidden;
+}
+
+.blog__img {
+    display: block;
+}
+
+.blog__item--col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 295px;
+}
+
+
+
+
+
