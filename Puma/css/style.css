@@ -210,7 +210,7 @@ body {
     margin-bottom: 95px;
 }
 
-.header__btn {
+.btn {
     width: 170px;
     height: 50px;
     font-size: 12px;
@@ -218,8 +218,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fff;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__btn {
+    border: 2px solid #fff;
     color: #fff;
     transition: background-color .2s linear;
 }
@@ -353,8 +357,8 @@ body {
 
 .blog__inner {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 590px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
     padding: 0 11px;
 }
 
@@ -362,17 +366,226 @@ body {
     overflow: hidden;
 }
 
-.blog__img {
+.blog__img,
+.col__img {
     display: block;
+    max-width: 100%;
 }
 
 .blog__item--col {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 295px;
+    grid-template-columns: 50% 50%;
 }
 
+.col__item--text {
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.col__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #070707;
+}
+
+.col__item--link {
+    padding-top: 30px;
+    color: #ff6600;
+    font-size: 24px;
+    padding: 10px;
+} 
+
+.section__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 77px;
+    padding-bottom: 70px;
+}
+
+.section__btn {
+    border: 2px solid #c4c4c4;
+    color: #363636;
+    transition: all .2s linear;
+}
+
+.section__btn:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+/* Section__brands---------------
+-------------*/
+.brands {
+    background-color: #cac7c7;
+}
+
+.brands__inner {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: 200px;
+    justify-items: center;
+    align-items: center;
+    background-color: #cac7c7;
+}
+
+.item {
+    height: 100px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.brands__item--1 {
+    background-image: url(../img/brands/6.png);
+}
+
+.brands__item--2 {
+    background-image: url(../img/brands/1.png);
+}
+
+.brands__item--3 {
+    background-image: url(../img/brands/2.png);
+}
+
+.brands__item--4 {
+    background-image: url(../img/brands/3.png);
+}
+
+.brands__item--5 {
+    background-image: url(../img/brands/4.png);
+}
+
+.brands__item--6 {
+    background-image: url(../img/brands/5.png);
+}
+
+/* footer--------------------
+------------------------- */
+footer {
+    background-color: #000;
+}
+
+.footer__inner {
+    padding-top: 80px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 60px;
+}
+
+.footer__link {
+    color: #868686;
+    font-size: 14px;
+    position: relative;
+    transition: color .2s linear;
+}
+
+.footer__links img {
+    display: block;
+    width: 160px;
+    height: auto;
+}
+
+.active {
+    color: #fff;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 1px;
+    background-color: #ff6600;
+}
+
+.footer__link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 1px;
+    background-color: #ff6600;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.footer__link:hover {
+    color: #fff;
+}
+
+.footer__link:hover::before {
+    opacity: 1;
+}
+
+.icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.icon::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 1px;
+    width: 40%;
+    background-color: #2e2e2e;
+}
+
+.icon::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 1px;
+    width: 40%;
+    background-color: #2e2e2e;
+}
+
+.icon__item {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #2e2e2e;
+    border-radius: 50%;
+    margin-left: 13px;
+    position: relative;
+}
+
+.icon__item i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #868686;
+    font-weight: 400;
+    font-size: 18px;
+    transition: color .2s linear;
+    cursor: pointer;
+}
+
+.icon__item i:hover {
+    color: #fff;
+}
+
+.footer__author {
+    color: #2e2e2e;
+    font-size: 11px;
+    padding-bottom: 150px;
+    text-align: center;
+}
 
 
 
