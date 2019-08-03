@@ -612,8 +612,6 @@ textarea {
         grid-row: 1 / 2;
         margin-top: 50px;
     }
-
-    
 }
 
 @media (max-width: 987px) {
@@ -767,8 +765,12 @@ textarea {
             font-size: 22px;
         }
 
+        .nav {
+            padding-bottom: 150px;
+        }
+
         .header__content {
-            padding-bottom: 70px;
+            padding-bottom: 216px;
         }
 
         .section__title--box {
@@ -780,7 +782,7 @@ textarea {
         }
 
         .default__inner {
-            padding-bottom: 30px;
+            padding-bottom: 50px;
         }
 
         .item__text {
@@ -807,10 +809,11 @@ textarea {
         input {
             height: 45px;
             margin-bottom: 20px;
+            width: 100%;
         }
 
         textarea {
-            width: 90%;
+            width: 100%;
         }
 
         .contact__btn {
@@ -839,9 +842,6 @@ textarea {
             margin-right: 0;
         }
 
-        .date {
-            
-        }
     }
 
 }
