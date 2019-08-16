@@ -1,8 +1,6 @@
 /* Base */
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -24,6 +22,7 @@ body {
 
 .title {
     font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .btn {
@@ -510,6 +509,7 @@ body {
 .gallery__title {
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: 700;
     color: #fff;
     margin-bottom: 15px;
 }
@@ -517,6 +517,7 @@ body {
 .gallery__text {
     color: #fff;
     font-size: 16px;
+    font-weight: 300;
 }
 
 .gallery__content {
@@ -695,7 +696,7 @@ textarea[name="UserMessege"] {
     grid-row-gap: 45px;
     grid-column-gap: 80px;
     justify-items: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .client__logo {
@@ -735,7 +736,7 @@ textarea[name="UserMessege"] {
 
 .item__title {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 43px;
     font-size: 15px;
     font-weight: 900;
     color: #fff;
