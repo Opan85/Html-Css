@@ -1,17 +1,17 @@
 @media (max-width: 768px) {
-  .navigation {
-    display: none;
-  }
+	.navigation {
+		display: none;
+	}
 
-  .header-wrapper {
-    display: flex;
-    justify-content: center;
-  }
+	.header-wrapper {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media (max-width: 425px) {
-  .featured-list {
-    display: flex;
-    justify-content: center;
-  }
+	.featured-list {
+		display: flex;
+		justify-content: center;
+	}
 }
