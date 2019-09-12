@@ -196,5 +196,26 @@ body {
 }
 
 .works__title {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
+}
+
+.works__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding-bottom: 50px;
+}
+
+.works__item {
+  max-width: 400px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.works__img {
+  display: block;
+  width: 100%;
+  object-fit: fill;
 }
