@@ -33,7 +33,7 @@ body {
 .container {
   max-width: 1200px;
   width: 100%;
-  padding: 0 5px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
@@ -47,6 +47,10 @@ body {
   justify-content: space-between;
   /* align-items: center; */
   padding-top: 20px;
+}
+
+.logo {
+  visibility: hidden;
 }
 
 .logo__link {
@@ -125,7 +129,6 @@ body {
 /* Section about-me */
 
 .section__title {
-  /* text-align: center; */
   font-size: 50px;
   font-weight: 700;
   position: relative;
@@ -205,17 +208,54 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 .works__item {
   max-width: 400px;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
 }
 
 .works__img {
   display: block;
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #4c4c4c;
+}
+
+.footer__title {
+  font-size: 50px;
+  color: #ececec;
+  font-weight: 700;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.footer__inner {
+  padding-bottom: 100px;
+}
+
+.footer__info {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.footer__social-icon,
+.copyright__link {
+  padding-bottom: 30px;
+  color: #ececec;
+  font-style: italic;
+}
+
+.fa-mobile-alt,
+.fa-envelope {
+  font-size: 20px;
 }
